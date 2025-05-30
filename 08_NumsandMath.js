@@ -7,7 +7,6 @@ const balance = new Number(100);
 console.log(score);       //Output -- 60
 console.log(balance);     //Output -- [Number: 100]
 
-
 console.log(balance.toString().length);
 
 //In this prototype we are giving 2 digits after decimal for accurate calculation --> (100.00)
@@ -16,7 +15,6 @@ console.log(balance.toFixed(2));
 const num = 123.8976;
 //This will check for starting 3 digit precision.
 console.log(num.toPrecision(3));
-
 
 const num2 = 1000000;
 //It will represent the above in indian number system,
