@@ -19,6 +19,6 @@ accountCity= "Chhindwara"
 
 //console.log(accountPassword); //Used to print the function
 
-var print=console.table([accountId,accountEmail,accountPassword,accountCity,accountstate]) //used to print many things at once
+var print = console.table([accountId,accountEmail,accountPassword,accountCity,accountstate]) //used to print many things at once
 
 console.log(print);

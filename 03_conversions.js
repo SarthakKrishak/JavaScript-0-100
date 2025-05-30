@@ -13,8 +13,8 @@ console.log(valueInNumber);
 
 // Converion  summary
 // "33"=>33
-// "33abc"=NaN(Not a number)
-// true=>1 / fasle=>0
+// "33abc"=>NaN(Not a number)
+// true=>1 / false=>0
 
 // ~~~~~~~~~~~~~~~~~~~~~~*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

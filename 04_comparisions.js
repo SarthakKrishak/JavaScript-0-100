@@ -37,11 +37,17 @@
 // }
 
 
-console.log(null > 0); //Output => false
+console.log(null > 0);  //Output => false
 console.log(null>=0);   //Output => true
 console.log(null==0);   //Output => false
 
 // The reason is that comparison and eqaulity check works differently.comparison convert null to a number , treating it as 0.
+
+
+console.log(undefined > 0);   //Output => false
+console.log(undefined >= 0);  //Output => false
+console.log(undefined ==0);   //Output => false
+
 
 
 

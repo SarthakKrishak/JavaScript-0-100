@@ -11,3 +11,8 @@ The heap is a complete binary tree, meaning that every level of the tree is full
 The stack and heap are used in various algorithms and data structures, such as expression evaluation, recursive function calls, and sorting algorithms.
 
 
+Primitive type - Stack is used
+Non-primitive (Reference) - heap is used
+
+
+

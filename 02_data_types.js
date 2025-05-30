@@ -2,6 +2,8 @@
 
 // alert(3+3)    //we are using node Js not browser, you can use this syntax in the browser but not in node JS.
 
+
+
 //Primitive
 //    |
 //    |
@@ -27,15 +29,20 @@ const myFunction = function(){
     console.log("HELLO WORLD");
 }
 
+// Arrow FUNCTION EX
+const myFunction2 = () => {
+    console.log("HELLO WORLD");
+}
+
 
 // Return type of variables in JavaScript
 // 1) Primitive Datatypes
-//        Number => number
-//        String  => string
-//        Boolean  => boolean
-//        null  => object
+//        Number => number (2^53)
+//        String  => string ("")
+//        Boolean  => boolean (true/false)
+//        null  => object (standalone value)
 //        undefined  =>  undefined
-//        Symbol  =>  symbol
+//        Symbol  =>  symbol (unique)
 //        BigInt  =>  bigint
 
 // 2) Non-primitive Datatypes
@@ -61,12 +68,12 @@ function printNumber (value) {
 // symbol => create unique key for object property
 // object 
 
-const id =Symbol('123')
+const id = Symbol('123')
 const anotherid =Symbol('123')
 console.log(id == anotherid);
 
 console.log(typeof "Sarthak");  //used to get the type of the data given to it
-console.log(typeof null);       //When you run this command it will show that the type of the  null value is object but why ???  
+console.log(typeof null);       //When you run this command it will show that the type of the  null value is "object" but why ???  
 console.log(typeof undefined);      //type is undefined
 
 
