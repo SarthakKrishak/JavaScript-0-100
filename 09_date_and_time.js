@@ -6,6 +6,11 @@ console.log(typeof Mydate);     //Output --> object
 // console.log(Mydate.toJSON());
 // console.log(Mydate.toISOString());
 // console.log(Mydate.toLocaleString());
+// For customising
+console.log(Mydate.toLocaleString("default", {
+    weekday: "long",
+    timeZone:''
+}));
 // console.log(Mydate.toLocaleDateString());
 // console.log(Mydate.toTimeString());
 

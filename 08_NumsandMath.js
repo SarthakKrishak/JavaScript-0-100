@@ -21,7 +21,6 @@ const num2 = 1000000;
 console.log(num2.toLocaleString('en-IN'));
 
 
-
 //----------------------------Maths-----------------------------------
 
 console.log(Math);

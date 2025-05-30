@@ -1,5 +1,5 @@
-//We can store different types in an array
-//let arr = [1, 2, 3, 4, "sarthak", {}, []];
+// We can store different types in an array
+// let arr = [1, 2, 3, 4, "sarthak", {}, []];
 
 // let arr = [1, 2, 3, 4, 5];
 // console.log(arr[1]);
@@ -21,10 +21,10 @@
 // console.log(arr.indexOf(1));
 
 
-// let newArray = arr.join()
+// let newArray = arr.join()  // Binded and converted into string
 // console.log(newArray);  //type is string.
 
-//🔴🔴Difference btw splice and slice,
+//🔴🔴 Difference btw splice and slice,
 
 // splice is used to add or remove elements from an array.
 // slice is used to get a subset of an array.
@@ -48,7 +48,6 @@
 // [1, 2, 3, 4, 5, 6]
 // [2, 3]
 
-
 let arr1 = ["sarthak","krishak","recon"]
 let arr2 = ["sarthak", "krishak", "delta"]
 
@@ -62,14 +61,13 @@ let arr2 = ["sarthak", "krishak", "delta"]
 //Now if you want to access the delta value from arr1 then,
 // console.log(arr1[3][2]);
 
-//For merging two arrays and storing them in a new array
+//For merging two arrays and storing them in a 'new array'
 let newArr = arr1.concat(arr2);
 console.log(newArr);
 
-//Another method is to use spread operator,
+//Another method is to use 'spread' operator,
 let newArr1 = [...arr1,...arr2]
 console.log(newArr1);
-
 
 //If you are having the following array then,
 
@@ -78,7 +76,7 @@ console.log(arr3.flat(Infinity));   // Infinity is the depth in the array , but 
 
 console.log(Array.isArray("sarthak")); //we are checking wheather its array or not.
 console.log(Array.from("sarthak"));  //It will create a array 
-console.log(Array.from({name:"sarthak"}));  //It will create a empty array 
+console.log(Array.from({name:"sarthak"}));  // 🔴 It will create a empty array 
 
 
 let score = 100;
